@@ -1,0 +1,21 @@
+From client: initialize({"clientID":"vscode","clientName":"Visual Studio Code","adapterID":"reactnativedirect","pathFormat":"path","linesStartAt1":true,"columnsStartAt1":true,"supportsVariableType":true,"supportsVariablePaging":true,"supportsRunInTerminalRequest":true,"locale":"en","supportsProgressReporting":true,"supportsInvalidatedEvent":true,"supportsMemoryReferences":true,"supportsArgsCanBeInterpretedByShell":true,"supportsMemoryEvent":true,"supportsStartDebuggingRequest":true})
+To client: {"seq":0,"type":"response","request_seq":1,"command":"initialize","success":true,"body":{"supportsConfigurationDoneRequest":true,"supportsEvaluateForHovers":true,"supportTerminateDebuggee":true,"supportsCancelRequest":true}}
+From client: attach({"name":"Attach to Hermes application - Experimental","request":"attach","type":"reactnativedirect","cwd":"/Users/gabrielfrancischini/Desktop/Git/slow-debug-repo","trace":"verbose","__configurationTarget":6,"__sessionId":"67e7650c-4c09-4a20-b8ee-ef1f138f5896"})
+Attaching to the application
+Attaching to the application: {
+  "name": "Attach to Hermes application - Experimental",
+  "request": "attach",
+  "type": "reactnativedirect",
+  "cwd": "/Users/gabrielfrancischini/Desktop/Git/slow-debug-repo",
+  "trace": "verbose",
+  "__configurationTarget": 6,
+  "__sessionId": "67e7650c-4c09-4a20-b8ee-ef1f138f5896",
+  "webkitRangeMin": 9223,
+  "webkitRangeMax": 9322,
+  "sourceMaps": true,
+  "enableDebug": true,
+  "sourceMapRenames": false,
+  "useHermesEngine": true
+}
+Connecting to 8081 port
+To client: {"seq":0,"type":"response","request_seq":2,"command":"attach","success":true}
